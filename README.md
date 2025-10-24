@@ -1,2 +1,2 @@
-# w3CodeLearn
-This public repository documents my learning journey in Web3, starting with **Solidity development** for blockchain. It showcases code built while exploring smart contract concepts, serving as a personal, focused portfolio and reference point that evolves over time. 
+# web3CodeDev
+This public repository showcases **Solidity** code developed while exploring core smart contract concepts, serving as a personal, focused portfolio and evolving reference for Web3 learning and development.
