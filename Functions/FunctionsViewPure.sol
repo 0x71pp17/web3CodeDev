@@ -30,6 +30,9 @@ contract FunctionsViewPure {
     /// @param _newVar The new value to store
     /// @return The new value that was set
     /// @dev This function modifies state and thus must not be view or pure
+    /// @dev Note: Return value is only accessible in contract-to-contract calls
+    ///      off-chain callers (e.g., wallets, scripts) cannot access it.
+    ///      Use events to notify external consumers of state changes.
     function setMyStorageVariable(uint _newVar) public returns(uint) {
         myStorageVariable = _newVar;
         return _newVar;
