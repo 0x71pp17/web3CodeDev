@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.15;
 
-/// @title Addresses
+/// @title AddressMsgSender
 /// @author 0x71pp17
 /// @notice Demonstrates address manipulation and balance querying
 contract AddressMsgSender {
