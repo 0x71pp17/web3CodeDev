@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.16;
+pragma solidity 0.8.19;
 
 /// @author 0x71pp17
 /// @notice A contract allowing users to deposit and withdraw only their own funds
