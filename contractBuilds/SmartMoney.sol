@@ -30,10 +30,10 @@ contract SendWithdrawMoney {
     /// @dev Resets user balance to zero after withdrawal
     /// @dev Reverts if user has no balance
     function withdraw() public {
-        uint userBal = userBalance[msg.sender];
-        require(userBal > 0, "No balance to withdraw");
-        payable(msg.sender).transfer(userBal);
-        totalDeposits -= userBal;
-        userBalance[msg.sender] = 0;
+        uint userBal = userBalance[msg.sender];            // Get the user's current balance
+        require(userBal > 0, "No balance to withdraw");    // Revert if balance is zero
+        payable(msg.sender).transfer(userBal);             // Send Ether to user (fails if recipient is a contract that can't receive Ether)
+        totalDeposits -= userBal;                          // Deduct withdrawn amount from total
+        userBalance[msg.sender] = 0;                       // Reset user balance to zero to prevent re-withdrawal   
     }
 }   
