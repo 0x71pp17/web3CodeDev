@@ -4,7 +4,7 @@ pragma solidity ^0.8.19;
 /// @author 0x71pp17
 /// @notice Demonstrates how mappings store and retrieve data by key (uint or address)
 /// @dev Mappings are efficient for lookups; values are stored at virtual initial value of 0
-contract SimpleMappingExample {
+contract Mappings {
 
     /// @notice Maps unsigned integers to boolean flags (e.g., task completion)
     mapping(uint => bool) public myMapping;
