@@ -3,7 +3,7 @@ pragma solidity 0.8.19;
 
 /// @author 0x71pp17
 /// @notice A contract allowing users to deposit and withdraw only their own funds
-contract SendWithdrawMoney {
+contract SmartMoney {
     /// @notice Tracks the amount deposited by each address
     mapping(address => uint) public userBalance;
 
