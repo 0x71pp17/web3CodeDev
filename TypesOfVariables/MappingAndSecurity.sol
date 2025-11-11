@@ -1,8 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-/// @title MappingsStructExample
-/// @author dev
+/// @author 0x71pp17
 /// @notice Implements secure deposit and withdrawal using mappings to track user balances
 /// @dev Uses Checks-Effects-Interactions pattern to prevent reentrancy
 contract MappingsAngSecurity {
