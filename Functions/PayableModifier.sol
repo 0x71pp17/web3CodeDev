@@ -4,7 +4,7 @@ pragma solidity 0.8.19;
 /// @author 0x71pp17
 /// @notice A contract that updates a string only if exactly 1 ETH is sent; refunds otherwise
 /// @dev Uses `payable` and `msg.value` for value-based access control
-contract SampleContract {
+contract PayableModifier {
     string public myString = "Hello World";
 
     /// @notice Updates `myString` only if exactly 1 ETH is sent
