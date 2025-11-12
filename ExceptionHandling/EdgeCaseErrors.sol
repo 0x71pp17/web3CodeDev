@@ -4,7 +4,7 @@ pragma solidity 0.8.30;
 /// @author 0x71pp17
 /// @notice Contract demonstrating edge cases in Solidity error handling
 /// @dev Covers missing return data, type mismatches, and low-level call failures
-contract EdgeCaseDemo {
+contract EdgeCaseErrors {
     /// @notice Emitted when a low-level revert or decoding failure occurs
     event LowLevelError(bytes data);
     /// @notice Emitted on successful operation (for testing/debugging)
