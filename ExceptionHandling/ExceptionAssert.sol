@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.30;
+pragma solidity 0.7.0;
 
 /// @author 0x71pp17
 /// @notice Tracks deposits with strict internal invariants using assert
-/// @dev Uses assert to enforce data integrity and prevent overflow/underflow
+/// @dev Uses assert to enforce data integrity and prevent overflow/underflow (pragma set behind 0.8.0)
 contract ExceptionAssert {
 
     // State variable: Maps user addresses to their balance (uint8, limited range)
