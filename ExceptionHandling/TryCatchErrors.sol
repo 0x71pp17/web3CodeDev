@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.30;
 
+/// @author 0x71pp17
 /// @notice Comprehensive error handling demo with require, assert, and custom revert
 contract TryCatchErrors.sol {
     /// @dev Custom error for low-level reverts (gas-efficient)
