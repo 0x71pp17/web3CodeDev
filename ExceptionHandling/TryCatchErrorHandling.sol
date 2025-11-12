@@ -1,7 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.30;
 
-/// @title WillThrow
 /// @author 0x71pp17
 /// @notice A contract that demonstrates a function reverting with an error message
 contract WillThrow {
