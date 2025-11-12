@@ -11,8 +11,7 @@ contract WillThrow {
     }
 }
 
-/// @title TryCatchErrorHandling
-/// @author 0x71pp17
+
 /// @notice A contract that handles errors from external calls using try/catch
 contract TryCatchErrorHandling {
     /// @notice Event emitted when an error is caught
