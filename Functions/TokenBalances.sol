@@ -25,7 +25,6 @@ library Balances {
         uint256 amount
     ) internal {
         require(balances[from] >= amount, "Insufficient balance");
-        require(balances[to] + amount >= balances[to], "Overflow detected");
         balances[from] -= amount;
         balances[to] += amount;
     }
@@ -33,7 +32,7 @@ library Balances {
 
 /**
  * @title Token Contract
- * @dev ERC20-like token with safe balance transfers using a library.
+ * @dev ERC20-like token with balance transfers that use arithmetic operations and validation logic from the library
  */
 contract TokenBalances {
     // Attach the Balances library to all mappings of type address => uint256
